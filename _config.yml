@@ -1,8 +1,19 @@
-layout_spectrum: 0.1648746
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.4444444
 color:
   saturation: 0.8100358
   brandStrength: 0.5019701
-  lightness: 0.6487455
   rhythmicContrast: 0.5555556
   brandColors:
     - '#9D2D3C'
@@ -10,5 +21,6 @@ color:
     - '#BCAB47'
     - '#6B574B'
     - '#160600'
-typography_spectrum: 0.4444444
+  lightness: 0.6487455
+layout_spectrum: 0.03405018
 name: Wow
