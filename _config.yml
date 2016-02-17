@@ -1,26 +1,26 @@
-collections:
-  - index:
-      path: /
-      number: 15
-      paginate: true
-      navigable: true
-    permalink:
-      path: '/:title/'
-    feed:
-      path: /rss.xml
-      format: rss
-      number: 10
-typography_spectrum: 0.4444444
 color:
   saturation: 0.8100358
   brandStrength: 0.9211469
-  lightness: 0.6487455
+  rhythmicContrast: 0.5555556
   brandColors:
     - '#191919'
     - '#2CF900'
     - '#3894BB'
     - '#FF7702'
     - '#AD5204'
-  rhythmicContrast: 0.5555556
+  lightness: 0.6487455
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+    permalink:
+      path: '/:title/'
 layout_spectrum: 0.03405018
+typography_spectrum: 0.4444444
 name: Wow
